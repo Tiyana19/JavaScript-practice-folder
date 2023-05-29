@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: black;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(45, 116, 213, 1) 11.2%,
+    rgba(121, 137, 212, 1) 91.2%
+  );
+  text-align: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
