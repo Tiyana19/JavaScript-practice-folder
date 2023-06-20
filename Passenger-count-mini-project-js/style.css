@@ -44,8 +44,8 @@ main {
     linear-gradient(-150deg, var(--_l)) #55897c /* third color here */;
   background-size: calc(0.866 * var(--s)) var(--s);
 
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   text-align: center;
   padding: 2rem;
   position: absolute;
@@ -61,7 +61,13 @@ main {
 .passenger-count-box {
   margin: auto;
   padding: 1rem;
-  backdrop-filter: blur(15px);
+  /* background-image: url(./images/sergio-teixeira-DFPN0nbiUSI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  backdrop-filter: blur(20px);
   color: #383737;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -70,10 +76,12 @@ main {
 }
 #count {
   font-size: 5rem;
-  margin: 2rem;
+  margin: 1rem;
 }
-.increment-btn {
-  padding: 0.5rem 2rem;
+.btn {
+  width: 150px;
+  height: 40px;
+  margin: 1rem;
   border-radius: 10px;
   font-size: 1rem;
   font-weight: bold;
@@ -91,8 +99,18 @@ main {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   color: #383737;
 }
-.increment-btn:hover {
+.btn:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.increment-btn {
+  background-image: radial-gradient(
+    circle,
+    #f6edb3,
+    #e1e3ae,
+    #ced9aa,
+    #bccfa7,
+    #acc4a3
+  );
 }
