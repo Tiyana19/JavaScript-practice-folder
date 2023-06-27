@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 450px;
+}
+.input-el {
+  width: 100%;
+  padding: 10px;
+  /* border-color: #5f9341; */
+  font-size: 1rem;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.btn {
+  font-weight: 900;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.input-btn,
+.tab-btn {
+  background-color: #5f9341;
+  color: #fff;
+  border: solid 1px #5f9341;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.delete-btn {
+  color: #5f9341;
+  background-color: #fff;
+  border: #5f9341 solid 1px;
+  box-shadow: rgba(0, 0, 0, 0.074) 0px 3px 6px, rgba(0, 0, 0, 0.074) 0px 3px 6px;
+}
+.input-btn:hover,
+.tab-btn:hover {
+  color: #5f9341;
+  background-color: #fff;
+  border-color: #5f9341;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.delete-btn:hover {
+  background-color: #5f9341;
+  color: #fff;
+  border-color: #5f9341;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.ul-el {
+  margin: 20px 0;
+}
+.ul-el li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.ul-el li a {
+  color: #5f9341;
+}
