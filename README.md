@@ -36,3 +36,25 @@ practice folder of JavaScript learning
 
 ![Welcome Page](blackjack-game-project/design/intro-screenshot.png)
 ![Game Mode](blackjack-game-project/design/screenshot-2.png)
+
+#
+
+#
+
+#
+
+#
+
+#
+
+### Project Chrome Extension : Leads tracker
+
+- In this project I have created a chrome extension called "Leads tracker".
+  - this extension will save the save url that user type in.
+  - also by clicking `save tab` it will save the current url of the browser.
+  - clicking `delete all ` will delete the all url that is saved by user, even from the local storage.
+- this extension save the `URL` in local storage so user can see them even after closing the browser or system and commig back.
+
+# Screenshot
+
+![Screenshot of extension](<chrome-extension-project/design/Screenshot from 2023-06-27 13-22-06.png>)
